@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANP</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head> 
+                                            
+<body>
+    <div id="sideNav">
+      <nav>
+        <ul>
+          <li><a href="">Accueil</a></li>                     
+          <li><a href="#section2">Entreprise</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="/contactus.html">Contactez-Nous</a></li>
+          <li><a class="location" >LOCALISATION</a><img class="down" src="/img/download.png" alt=""></li>
+          <li><a > <div  style="width: 300px;position: relative;bottom: 30px ;"><iframe width="200" height="200" src="https://maps.google.com/maps?width=300&amp;height=300&amp;hl=en&amp;q=Garage%20Mecaman%2C%20180%20Rue%20Ibnou%20Faris%2C%20Casablanca%2020300+(global%20mecaman)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="http://www.googlemapsgenerator.com/en/">gmapgen en</a> & <a href="https://nyacasinoutansvensklicens.se/">nyacasinoutansvensklicens.se</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br /></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="menuBtn">
+      <img src="/img/crane (2).png"  >
+    </div>
+    <script>
+      var menuBtn = document.getElementById("menuBtn")
+      var sideNav = document.getElementById("sideNav")
+      
+      sideNav.style.right = "-250px";
+      menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+          sideNav.style.right = "0";
+        }
+        else{
+          sideNav.style.right ="-250px";
+        }
+      }
+    </script>
+      
+    <section class="q">
+        <img src="/img/bg.jpg" id="bg">
+        <img src="/img/moon.png" id="moon">
+        <img src="img/mountain.png" id="mountain">
+        <img src="/img/road.png" id="road">
+        <h2 id="text">Agence Nationale des Ports</h2>
+        <br>
+        <h6 >Construire l'avenir avec nos clients</h6>
+    </section>
+       <script type="text/javascript">
+        let bg = document.getElementById("bg");
+        let moon = document.getElementById("moon");
+        let mountain = document.getElementById("mountain");
+        let road = document.getElementById("road");
+        let text = document.getElementById("text"); 
+        window.addEventListener('scroll',function(){
+            var value = window.scrollY;
+            bg.style.top=value * 0.5 + 'px';
+            moon.style.left= -value * 0.5 + 'px';
+            mountain.style.top=-value * 0.15 + 'px';
+            road.style.top= value * 0.15 + 'px';
+            text.style.top=value * 1 + 'px';
+          
+        })
+        </script>
+        
+    <!-- ----------about--------- -->
+    
+       <section id="section2"  class="new-section" > 
+         <div class="tout">
+           <div class="title-about">
+            <h1 class="about">Qui sommes nous ?</h1> 
+            <div class="bottom"></div>
+                <p class="para">   ANP ou "Agence Nationale des Ports" est un établissement semi-public à caractère commercial, doté de l’autonomie financière placé sous la tutelle du Ministère des travaux publics.Créée par la Loi 15-02, l’Agence Nationale des Ports est un « Etablissement Public doté de la personnalité morale et de l’autonomie financière ». La tutelle technique de l’Agence est assurée par le Ministère de l’Equipement et du Transport.
+                  L’agence est soumise au contrôle financier de l’Etat applicable aux établissements publics conformément à la législation en vigueur.
+                  </p>
+         </div>
+         <div class="about-img">
+           <img src="/img/anp.jpg" class="mec-img">
+         </div>
+         </div>
+         
+        </section>
+    
+       
+        <!-- Features -->
+        <section id="feature">
+            <div class="title-text1">
+                <p>Caracteristiques</p>
+                <h1>Pourqoui nous choisir</h1>  
+            </div>
+            <div class="feature-box">
+                <div class="features">
+                    <h1>Personnel expérimenté</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                             <img class="security" src="img/verified.png" >
+                        </div>
+                        <div class="feature-text">
+                        <p>Des ingénieurs avec une expertise et des compétences élevées </p>
+                        </div>
+                      </div>
+                    <h1>La qualité de service</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                             <img class="security" src="img/verified.png" >
+                        </div>
+                        <div class="feature-text">
+                        <p>Nous fournissons de bons services et c'est le témoignage de nos clients </p>
+                        </div>
+                      </div>
+                    <h1>Poste important</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                             <img class="security" src="img/verified.png" >
+                        </div>
+                        <div class="feature-text">
+                        <p>Nous traitons avec des entreprises internationales </p>
+                        </div>
+                      </div>
+                </div>
+                    <div class="features-img">
+                        <img src="/img/anp 1.jfif">
+                    </div>
+            </div>
+        </section>
+        <!-- Services -->
+        <section id="service">
+            <div class="title-text2">
+                <p>Services</p>
+                <h1>Nous offrons mieux</h1>
+            </div>
+            <div class="service-box">
+                <div class="single-service">
+                    <img src="/img/ANP sv2.jpg">
+                    <div class="overlay"></div>
+                    <div class="service-desc">
+                        <h3>Plaisance</h3>
+                        <hr>
+                        <p>Les ports de passagers se trouve : <br> Tanger-Asilah-Mohammedia-Casablanca-Essaouira-Terfaya-Agadir-M’diq-Jebha-Nador-Ras Kebdana</p>
+                    </div>
+                </div>
+                <div class="single-service">
+                <img  src="/img/ANP srv1.jfif">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Pêche</h3>
+                    <hr>
+                    <p> Tous les ports sont des ports de pêche </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="/img/ANP srv4.jfif">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>passagers</h3>
+                    <hr>
+                    <p>Les ports de passagers se trouve : <br> Tanger-Al Hoceima-Nador</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img  src="/img/ANP srv3.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>commerce</h3>
+                    <hr>
+                    <p>Les ports de commerce se trouve : <br> Kenitra-Mohammedia-Casablanca-Jorf Lasfar-Safi-Agadir-TanTan-Laâyoune-Dakhla-Al Hoceima
+                      </p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- ----footer---- -->
+        <footer>
+            <div class="row">
+            <div class="col">
+            <div class="logo-meca">ANP</div>
+              <img src="/img/construction (2).png" class="logo">
+          
+              <p class="para-ft" >Depuis sa création, l'Agence Nationale des Ports met à la disposition de ses partenaires industriels, sa réactivité et sa fiabilité.L'équipe du "ANP" vous encourage à prendre contact par n'importe quel moyen mis à votre disposition.</p>
+            </div>
+            <div class="col">
+              <h3>Bureau <div class="underline"><span></span></div></h3>
+              <p>Agence nationale des ports </p> 
+              <p>(anp - port de safi) , Maroc</p>
+              <div class="email-id">Anpsafi@gmail.com</div>
+              <h4>+212 -5 24 46 28 67</h4>
+            </div>
+            <div class="col">
+              <h3>Activites  <div class="underline"><span></span></div></h3>
+              <p class="para-ft2">commerce</p>
+              <p class="para-ft2">Machine tournante</p>
+              <p class="para-ft2">passagers</p>
+              <p class="para-ft2">Pêche</p>
+              <p class="para-ft2">Ingenieuries</p>
+            </div>
+            <div class="col">
+              <h3>Bulletin<div class="underline"><span></span></div></h3>
+              <form>
+                <img class="email-ft" src="/img/email-screen.jpg" alt="email">
+                <input type="email" placeholder="Entrer ton email" required>
+                <button><img class="oo" src="/img/next (1).png" alt="right-arrow"></button>
+              </form>
+              <div class="social-icons">
+                <img class="scl-md" src="/img/facebook (2).png" alt="facebook">
+                <img class="scl-md" src="/img/whatsapp (1).png" alt="whatsapp">
+                <img class="scl-md insta" src="/img/instagram.png" alt="instagram">
+                <img class="scl-md" src="/img/twitter.png" alt="twitter">
+              </div>
+            </div>
+          
+          </div>
+          <hr>
+          <div class="copyright">ANP © 2021 - All Rights Reserved </div>
+          
+        </footer>
+
+       
+      
+  
+       
+</body>
+</html>
